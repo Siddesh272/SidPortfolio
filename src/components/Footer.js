@@ -2,10 +2,11 @@
 import React from 'react';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer>
       <div className="container">
-        <p>&copy; 2024 Siddesh Mishra</p>
+        <p>&copy; {currentYear} Siddesh Mishra</p>
         <div className="social-icons">
           <a href="https://www.linkedin.com/in/siddesh-mishra-8261a722b/"><i className="fab fa-linkedin"></i></a>
           <a href="https://github.com/Siddesh272"><i className="fab fa-github"></i></a>

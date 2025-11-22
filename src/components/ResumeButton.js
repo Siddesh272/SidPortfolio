@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/ATSResume.pdf';
+import resume from '../assets/FAANGPath_Simple_Template.pdf';
 
 const ResumeButton = () => {
   return (
